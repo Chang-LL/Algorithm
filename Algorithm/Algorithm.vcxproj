@@ -162,6 +162,7 @@
   <ItemGroup>
     <ClCompile Include="Algorithm.cpp" />
     <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="Johnson.cpp" />
     <ClCompile Include="Knapsack.cpp" />
     <ClCompile Include="Knapspack.cpp" />
     <ClCompile Include="LCS.cpp" />

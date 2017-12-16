@@ -1,11 +1,130 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="SPTree">
+  <Class Name="SPTree&lt;T, K&gt;">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAABAEAAAAAAAAAAAAAwQAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
       <FileName>SPTree.h</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Graph" Collapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAEAgAAABBgAAAAAgAAAgkEAAAAAAAAAA=</HashCode>
+      <FileName>Graph.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Knapsack&lt;T&gt;" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEBAAEAAAAAEAAAAAAAACAAAQE0gAABAAQAA=</HashCode>
+      <FileName>Knapsack.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Knapspack&lt;T&gt;" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAARAAAAAAAAAAAAAAAAAAAAAAAAAEEsgEAQAAACA=</HashCode>
+      <FileName>Knapspack.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LCS" Collapsed="true">
+    <Position X="1.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAIAAAAAAACAAAAAAAAAAAACACgE4AAAAAAAAA=</HashCode>
+      <FileName>LCS.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MatrixChain" Collapsed="true">
+    <Position X="3.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAEAIAAAAAQAEAAAAAAAAAAAAAEsAAAAAAAAA=</HashCode>
+      <FileName>MatrixChain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MGraph&lt;T&gt;" Collapsed="true">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAISAAAAAAAAAAAgAAAAAAAAAAAAAgEAAAAAAABAA=</HashCode>
+      <FileName>MGraph.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MinGraph&lt;T&gt;" Collapsed="true">
+    <Position X="1.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACkAAAAAAAAAAAAAAAAAAAAAAAgEAgAIAAAAAA=</HashCode>
+      <FileName>MinGraph.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkipList&lt;T&gt;" Collapsed="true">
+    <Position X="3.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAgAAAAAAAAAAIIAAAAAEQAAABAAAAQAAAAgA=</HashCode>
+      <FileName>SkipList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ENode" Collapsed="true">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graph.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="XP" Collapsed="true">
+    <Position X="1.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAA=</HashCode>
+      <FileName>Knapsack.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="HNode&lt;T&gt;" Collapsed="true">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAEAgAAAAAAAAAAA=</HashCode>
+      <FileName>Knapspack.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="hNode&lt;T&gt;" Collapsed="true">
+    <Position X="1.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAABoAAAAAAAA=</HashCode>
+      <FileName>Knapspack.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cNode&lt;T&gt;" Collapsed="true">
+    <Position X="3.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAACAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>MinGraph.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SNode&lt;T&gt;" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAEE=</HashCode>
+      <FileName>SkipList.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BTNode&lt;T&gt;" Collapsed="true">
+    <Position X="1.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAIAAAAAAAAAEACAAAAAAA=</HashCode>
+      <FileName>SPTree.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="ColorType" Collapsed="true">
+    <Position X="1.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAABAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graph.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ResultCode" Collapsed="true">
+    <Position X="3.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAqAAgAAIAAAAAAAAAAgAAA=</HashCode>
+      <FileName>SPTree.h</FileName>
+    </TypeIdentifier>
+  </Enum>
   <Font Name="Microsoft YaHei UI" Size="9" />
 </ClassDiagram>

@@ -72,7 +72,6 @@ void Knapsack<T>::TraceBack(int* x)
 			if (ww == p[k].X)x[j] = 0;
 		if (x[j])ww = ww - w[j];
 	}
-
 	if (ww == 0)x[0] = 0;
 	else x[0] = 1;
 }

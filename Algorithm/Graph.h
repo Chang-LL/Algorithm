@@ -1,6 +1,5 @@
 #pragma once
-#include<queue>
-#include<stack>
+
 enum ColorType
 {
 	White, Gray, Black

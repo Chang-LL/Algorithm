@@ -1,5 +1,6 @@
 #pragma once
-#include<queue>
+#include"SPTree.h"
+
 template<typename T>
 struct HNode
 {

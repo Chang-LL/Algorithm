@@ -79,6 +79,11 @@ void MGraph<T>::Floyd(T **& d, int **& path)
 				}
 }
 
+template<typename T>
+void MGraph<T>::mColoring(int m, int * x)
+{
+}
+
 
 // 在一维数组里求最小值
 template<typename T>
@@ -97,4 +102,36 @@ int MGraph<T>::Choose(int* d, bool* s)
 		}
 	}
 	return minpos;
+}
+
+template<typename T>
+void MGraph<T>::NextValue(int k, int m, int * x)
+{
+	int j;
+	do {
+		x[k] = (x[k] + 1) % (m + 1);
+		if (!x[k])return;
+		for (j = 0; j < k; j++)
+		{
+			if (a[k][j] && x[k] == x[j])
+				break;
+		}
+		if (j == k)return;
+	} while (1);
+}
+
+template<typename T>
+void MGraph<T>::mColoring(int k, int m, int * x)
+{
+	do {
+		NextValue(k, m, x);
+		if (!x[k])break;
+		if (k == n - 1)
+		{
+			for (int i = 0; i < n; i++)
+				std::cout << x[i] << ' ';
+			std::cout << std::endl;
+		}
+		else mColoring(k + 1, m, x);
+	} while (true);
 }

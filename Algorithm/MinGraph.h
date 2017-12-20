@@ -1,5 +1,4 @@
 #pragma once
-#include<queue>
 #include"Knapspack.h"
 template<typename T>
 struct cNode

@@ -1,4 +1,5 @@
 #pragma once
+#include"SPTree.h"
 template<typename T>
 struct SNode
 {

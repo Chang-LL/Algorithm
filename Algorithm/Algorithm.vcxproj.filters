@@ -48,6 +48,12 @@
     <ClInclude Include="Knapsack.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="NQueen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SumOfSub.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -84,6 +90,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Johnson.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="backtrack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NQueen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SumOfSub.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,5 +1,4 @@
 #pragma once
-#include<iostream>
 enum ResultCode{Underflow,Overflow,Success,
 	Duplicate,Fail,NotPresent,RangeError};
 template<class T>

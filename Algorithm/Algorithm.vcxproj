@@ -147,9 +147,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BatchJob.h" />
     <ClInclude Include="Graph.h" />
     <ClInclude Include="Knapsack.h" />
     <ClInclude Include="Knapspack.h" />
+    <ClInclude Include="Ksack.h" />
     <ClInclude Include="LCS.h" />
     <ClInclude Include="MatrixChain.h" />
     <ClInclude Include="MGraph.h" />
@@ -164,10 +166,12 @@
   <ItemGroup>
     <ClCompile Include="Algorithm.cpp" />
     <ClCompile Include="backtrack.cpp" />
+    <ClCompile Include="BatchJob.cpp" />
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="Johnson.cpp" />
     <ClCompile Include="Knapsack.cpp" />
     <ClCompile Include="Knapspack.cpp" />
+    <ClCompile Include="Ksack.cpp" />
     <ClCompile Include="LCS.cpp" />
     <ClCompile Include="MatrixChain.cpp" />
     <ClCompile Include="MGraph.cpp" />

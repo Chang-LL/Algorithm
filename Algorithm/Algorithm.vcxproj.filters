@@ -54,6 +54,12 @@
     <ClInclude Include="SumOfSub.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Ksack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BatchJob.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -99,6 +105,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="SumOfSub.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ksack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BatchJob.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
